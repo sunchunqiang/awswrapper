@@ -22,6 +22,13 @@ android {
     }
 }
 
+sourceSets {
+    build {
+        java.srcDir file('src/main/java')
+
+    }
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

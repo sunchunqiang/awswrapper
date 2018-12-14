@@ -1,0 +1,16 @@
+#surefire_1
+#Mon Dec 03 14:38:21 PST 2018
+sonatype.password=Chiputaobutuputaopi2235\!
+autoReleaseAfterClose=false
+gpg.homedir=/Users/sdechunq/.gnupg/
+performRelease=true
+maven.repo.local=~/.m2
+robolectric.dependency.dir=robolectric-dependencies
+skipRemoteStaging=false
+gpg.keyname=E08AED41C447761E
+robolectric.offline=true
+sonatype.username=sunchunqiang
+gpg.passphrase=Sun1234\=
+basedir=/Users/sdechunq/Documents/github/private/awswrapper/pinpointwrapper
+user.dir=/Users/sdechunq/Documents/github/private/awswrapper/pinpointwrapper
+localRepository=/Users/sdechunq/Documents/github/private/awswrapper/~/.m2

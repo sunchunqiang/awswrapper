@@ -28,6 +28,7 @@ mvn clean deploy -X -e -Ppublishing \
     -Dsonatype.password="$sonatype_password" \
     -Dgpg.homedir="$gpg_homedir" \
     -Dgpg.keyname="$gpg_keyname" \
-    -Dgpg.passphrase="$gpg_passphrase" 
-    
+    -Dgpg.passphrase="$gpg_passphrase" \
+    -DskipTests=true
+
 

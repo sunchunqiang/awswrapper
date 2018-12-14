@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 16:18:45 PST 2018
+s3wrapper-1.0.0.pom>=
+s3wrapper-1.0.0-sources.jar>=
+s3wrapper-1.0.0.pom.asc>=
+s3wrapper-1.0.0-sources.jar.asc>=
+s3wrapper-1.0.0.jar.asc>=
+s3wrapper-1.0.0.jar>=

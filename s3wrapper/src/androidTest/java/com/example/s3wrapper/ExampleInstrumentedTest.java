@@ -19,6 +19,7 @@ public class ExampleInstrumentedTest {
     @Test
     public void useAppContext() {
         // Context of the app under test.
+        assertEquals(4, 3 + 2);
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.s3wrapper.test", appContext.getPackageName());

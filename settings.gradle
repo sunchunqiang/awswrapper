@@ -1,1 +1,1 @@
-include ':app', ':s3wrapper', ':pinpontwrapper'
+include ':app', ':s3wrapper', ':pinpontwrapper', ':pinpointwrapper'
