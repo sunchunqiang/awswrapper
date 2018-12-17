@@ -18,7 +18,7 @@ jobs:
 
 workflows:
   version: 2
-  build
+  build:
     jobs: 
       - build 
       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
