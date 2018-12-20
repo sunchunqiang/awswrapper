@@ -23,8 +23,6 @@ jobs:
             GIT_COMMIT_DESC=$(git log --format=oneline -n 1 $CIRCLE_SHA1)
             echo "GIT_COMMIT_DESC:$GIT_COMMIT_DESC"
 
-             
-
 workflows:
   version: 2
   build:
