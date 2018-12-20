@@ -1,3 +1,4 @@
+
 version: 2
 jobs:
   build:
@@ -18,6 +19,10 @@ jobs:
             echo "CIRCLE_BUILD_NUM:${CIRCLE_BUILD_NUM}"
             echo "CIRCLE_BUILD_URL:${CIRCLE_BUILD_URL}"
             echo "CIRCLE_PREVIOUS_BUILD_NUM:${CIRCLE_PREVIOUS_BUILD_NUM}"
+            echo "CIRCLE_SHA1 =: $CIRCLE_SHA1"
+            GIT_COMMIT_DESC=$(git log --format=oneline -n 1 $CIRCLE_SHA1)
+            echo "GIT_COMMIT_DESC:$GIT_COMMIT_DESC"
+
              
 
 workflows:
