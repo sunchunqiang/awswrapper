@@ -22,7 +22,7 @@
   <scm>
     <url>http://github.com/sunchunqiang/awswrapper.git</url>
   </scm>
-
+   
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
