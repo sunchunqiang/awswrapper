@@ -17,8 +17,6 @@ jobs:
             pwd
             echo $sdkversion
 
-
-jobs:
   build:
     working_directory: ~/code
     docker:
